@@ -1,0 +1,7 @@
+h1{
+    font-size: 50px;
+    background-color: rgb(147, 147, 223);
+}
+.lbl-linecolor{
+    border-bottom: 3px double rgb(43, 231, 74);
+}
