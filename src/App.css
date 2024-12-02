@@ -126,95 +126,29 @@ a {
     text-decoration: none;
 }
 
-/* 特色區 */
-.listbox h2{
-    color: red;
-    font-size: 1.5rem;
-    margin: 10px 0;
-    
-}
-
-.listbox{
-    margin: 50px;
+/* 天氣 */
+.col1{
     display: flex;
-    justify-content: center;
-    text-align: center;
 }
+.taipei,.newtaipei{
 
-.content{
-    margin: 0 50px;
-}
-
-.maintitle{
-    color: rgb(255, 255, 255);
-    font-size: 1.5rem;
-    padding: 18px;
-    background-color: #e94646;
-    text-align: center;
-}
-
-.recommendText h2{
-    font-weight: 600;
-    margin: 40px 20px 0px;
-    font-size: 1.5rem;
-    color: green;
-    text-align: center;
-}
-
-/* 推薦課程區 */
-.recommendCard{
+    
     display: flex;
-    width: 1200px;
-    margin: 10px auto 50px;
     
+    border: solid 1px #666;
+    border-radius: 10px;
+    margin: 10px;    
 }
 
-.card{
-    /* border: solid ,gray,thin; */
-
-    /* 陰影: 水平 垂直 擴展度 顏色 */
-    box-shadow: 0px 0px 5px rgb(77, 77, 77);
-    padding: 20px;
-    margin: 10px;
-}
-
-.card h2{
-    margin: 10px 0;
-    font-size: 1.5rem;
-}
-.card h3{
-    margin: 10px 0;
-    color: #3fa9d3;
-}
-.card p{
-    margin: 10px 0;
-    color: #6e6e6e;
-}
-
-
-.card span{
-    color: #ff2828;
-    font-size: 1.2rem;
-    margin-left: 10px;
-}
-
-
-
-
-.card button{
-    color: #fff;
-    background-color: #ff2828;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    width: 100%;
-    padding: 10px 0;
+.dayWeather{
+    margin: 30px;
     
-}
-
-footer{
-    color: #fff;
-    background-color: black;
     text-align: center;
-    padding: 10px;
 }
+h3{
+    background-color: #bdbdbd;
+    text-align: center;
+}
+
+.dayWeather p{}
+    
