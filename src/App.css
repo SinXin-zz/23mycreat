@@ -127,28 +127,28 @@ a {
 }
 
 /* 天氣 */
-.col1{
-    display: flex;
-}
-.taipei,.newtaipei{
-
-    
-    display: flex;
-    
-    border: solid 1px #666;
-    border-radius: 10px;
-    margin: 10px;    
+.wrap{
+    width: 80%;
+    margin: 0 auto;
 }
 
-.dayWeather{
-    margin: 30px;
-    
-    text-align: center;
+.row{
+    display: flex;
+    justify-content: space-around;
 }
-h3{
-    background-color: #bdbdbd;
+
+.col{
+    border: solid 1px #ccc;
     text-align: center;
 }
 
-.dayWeather p{}
-    
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title{
+    text-align: center;
+}
+
+
