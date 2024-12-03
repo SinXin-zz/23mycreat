@@ -1,11 +1,9 @@
-import { useEffect, useState } from "react"
-import axios from "axios"
-import "./App.css";
-import { CiUmbrella } from "react-icons/ci";
+import { useEffect } from "react";
 
-function App() {
-    // 要用jason資料要寫在return前
-    useEffect(() => {
+function ShowCity(){
+   return(
+    <>
+    {
         (async () => {
             // const data = await axios.get('./F-C0032-001.json');
             const data = await axios.get('https://github.com/SinXin-zz/23myreact/blob/main/F-C0032-001.json');
@@ -19,29 +17,9 @@ function App() {
             location.map((city)=>{
                 return <div key={city.locationName}>{city.locationName}</div>
             })
-        })
-    }, [])
-
-
-    return (
-        <>
-            <div className="wrap">
-                <h2>36小時天氣預報</h2>
-            </div>
-            {}
-
-            {/* 一列兩欄 */}
-            <div className="row">
-                {
-
-                }
-
-
-            </div>
-
-
-
-        </>
-    )
+        })()
+    }
+    </>
+   )
 }
-export default App
+export default ShowCity
