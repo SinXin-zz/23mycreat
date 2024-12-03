@@ -8,7 +8,7 @@ function App() {
     useEffect(() => {
         (async () => {
             // const data = await axios.get('./F-C0032-001.json');
-            const data = await axios.get('https://github.com/SinXin-zz/23myreact/blob/main/F-C0032-001.json');
+            const data = await axios.get('./F-C0032-001.json');
             const { location } = data.data.cwaopendata.dataset;
             console.log(location);
 
@@ -19,7 +19,7 @@ function App() {
             location.map((city)=>{
                 return <div key={city.locationName}>{city.locationName}</div>
             })
-        })
+        })()
     }, [])
 
 
